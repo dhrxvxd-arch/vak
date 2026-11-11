@@ -1,0 +1,117 @@
+[
+  {
+    "file": "src/ast.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++26",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "-Iinclude",
+      "-O0",
+      "-g3",
+      "-DDEBUG",
+      "-MMD",
+      "-MP",
+      "-c",
+      "src/ast.cpp",
+      "-o",
+      "cpp-out/obj/ast.o"
+    ],
+    "directory": "/home/dhrxv/dev/vak",
+    "output": "cpp-out/obj/ast.o"
+  },
+  {
+    "file": "src/lexer.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++26",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "-Iinclude",
+      "-O0",
+      "-g3",
+      "-DDEBUG",
+      "-MMD",
+      "-MP",
+      "-c",
+      "src/lexer.cpp",
+      "-o",
+      "cpp-out/obj/lexer.o"
+    ],
+    "directory": "/home/dhrxv/dev/vak",
+    "output": "cpp-out/obj/lexer.o"
+  },
+  {
+    "file": "src/parser.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++26",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "-Iinclude",
+      "-O0",
+      "-g3",
+      "-DDEBUG",
+      "-MMD",
+      "-MP",
+      "-c",
+      "src/parser.cpp",
+      "-o",
+      "cpp-out/obj/parser.o"
+    ],
+    "directory": "/home/dhrxv/dev/vak",
+    "output": "cpp-out/obj/parser.o"
+  },
+  {
+    "file": "src/token.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++26",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "-Iinclude",
+      "-O0",
+      "-g3",
+      "-DDEBUG",
+      "-MMD",
+      "-MP",
+      "-c",
+      "src/token.cpp",
+      "-o",
+      "cpp-out/obj/token.o"
+    ],
+    "directory": "/home/dhrxv/dev/vak",
+    "output": "cpp-out/obj/token.o"
+  },
+  {
+    "file": "src/vak.cpp",
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++26",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "-Iinclude",
+      "-O0",
+      "-g3",
+      "-DDEBUG",
+      "-MMD",
+      "-MP",
+      "-c",
+      "src/vak.cpp",
+      "-o",
+      "cpp-out/obj/vak.o"
+    ],
+    "directory": "/home/dhrxv/dev/vak",
+    "output": "cpp-out/obj/vak.o"
+  }
+]
